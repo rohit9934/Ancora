@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8C53AF0E2931F2DE002D0C2A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C53AF0D2931F2DE002D0C2A /* AppDelegate.swift */; };
+		8C53AF102931F2DE002D0C2A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C53AF0F2931F2DE002D0C2A /* SceneDelegate.swift */; };
+		8C53AF122931F2DE002D0C2A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C53AF112931F2DE002D0C2A /* ViewController.swift */; };
+		8C53AF152931F2DE002D0C2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C53AF132931F2DE002D0C2A /* Main.storyboard */; };
+		8C53AF172931F2DF002D0C2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C53AF162931F2DF002D0C2A /* Assets.xcassets */; };
+		8C53AF1A2931F2DF002D0C2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C53AF182931F2DF002D0C2A /* LaunchScreen.storyboard */; };
+		8C53AF252931F2DF002D0C2A /* AncoraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C53AF242931F2DF002D0C2A /* AncoraTests.swift */; };
+		8C53AF2F2931F2DF002D0C2A /* AncoraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C53AF2E2931F2DF002D0C2A /* AncoraUITests.swift */; };
+		8C53AF312931F2DF002D0C2A /* AncoraUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C53AF302931F2DF002D0C2A /* AncoraUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8C53AF212931F2DF002D0C2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C53AF022931F2DE002D0C2A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C53AF092931F2DE002D0C2A;
+			remoteInfo = Ancora;
+		};
+		8C53AF2B2931F2DF002D0C2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C53AF022931F2DE002D0C2A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C53AF092931F2DE002D0C2A;
+			remoteInfo = Ancora;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8C53AF0A2931F2DE002D0C2A /* Ancora.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ancora.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C53AF0D2931F2DE002D0C2A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8C53AF0F2931F2DE002D0C2A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8C53AF112931F2DE002D0C2A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8C53AF142931F2DE002D0C2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8C53AF162931F2DF002D0C2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8C53AF192931F2DF002D0C2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8C53AF1B2931F2DF002D0C2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C53AF202931F2DF002D0C2A /* AncoraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AncoraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C53AF242931F2DF002D0C2A /* AncoraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AncoraTests.swift; sourceTree = "<group>"; };
+		8C53AF2A2931F2DF002D0C2A /* AncoraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AncoraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C53AF2E2931F2DF002D0C2A /* AncoraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AncoraUITests.swift; sourceTree = "<group>"; };
+		8C53AF302931F2DF002D0C2A /* AncoraUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AncoraUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8C53AF072931F2DE002D0C2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C53AF1D2931F2DF002D0C2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C53AF272931F2DF002D0C2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8C53AF012931F2DE002D0C2A = {
+			isa = PBXGroup;
+			children = (
+				8C53AF0C2931F2DE002D0C2A /* Ancora */,
+				8C53AF232931F2DF002D0C2A /* AncoraTests */,
+				8C53AF2D2931F2DF002D0C2A /* AncoraUITests */,
+				8C53AF0B2931F2DE002D0C2A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8C53AF0B2931F2DE002D0C2A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8C53AF0A2931F2DE002D0C2A /* Ancora.app */,
+				8C53AF202931F2DF002D0C2A /* AncoraTests.xctest */,
+				8C53AF2A2931F2DF002D0C2A /* AncoraUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8C53AF0C2931F2DE002D0C2A /* Ancora */ = {
+			isa = PBXGroup;
+			children = (
+				8C53AF0D2931F2DE002D0C2A /* AppDelegate.swift */,
+				8C53AF0F2931F2DE002D0C2A /* SceneDelegate.swift */,
+				8C53AF112931F2DE002D0C2A /* ViewController.swift */,
+				8C53AF132931F2DE002D0C2A /* Main.storyboard */,
+				8C53AF162931F2DF002D0C2A /* Assets.xcassets */,
+				8C53AF182931F2DF002D0C2A /* LaunchScreen.storyboard */,
+				8C53AF1B2931F2DF002D0C2A /* Info.plist */,
+			);
+			path = Ancora;
+			sourceTree = "<group>";
+		};
+		8C53AF232931F2DF002D0C2A /* AncoraTests */ = {
+			isa = PBXGroup;
+			children = (
+				8C53AF242931F2DF002D0C2A /* AncoraTests.swift */,
+			);
+			path = AncoraTests;
+			sourceTree = "<group>";
+		};
+		8C53AF2D2931F2DF002D0C2A /* AncoraUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8C53AF2E2931F2DF002D0C2A /* AncoraUITests.swift */,
+				8C53AF302931F2DF002D0C2A /* AncoraUITestsLaunchTests.swift */,
+			);
+			path = AncoraUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8C53AF092931F2DE002D0C2A /* Ancora */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C53AF342931F2DF002D0C2A /* Build configuration list for PBXNativeTarget "Ancora" */;
+			buildPhases = (
+				8C53AF062931F2DE002D0C2A /* Sources */,
+				8C53AF072931F2DE002D0C2A /* Frameworks */,
+				8C53AF082931F2DE002D0C2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ancora;
+			productName = Ancora;
+			productReference = 8C53AF0A2931F2DE002D0C2A /* Ancora.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8C53AF1F2931F2DF002D0C2A /* AncoraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C53AF372931F2DF002D0C2A /* Build configuration list for PBXNativeTarget "AncoraTests" */;
+			buildPhases = (
+				8C53AF1C2931F2DF002D0C2A /* Sources */,
+				8C53AF1D2931F2DF002D0C2A /* Frameworks */,
+				8C53AF1E2931F2DF002D0C2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C53AF222931F2DF002D0C2A /* PBXTargetDependency */,
+			);
+			name = AncoraTests;
+			productName = AncoraTests;
+			productReference = 8C53AF202931F2DF002D0C2A /* AncoraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8C53AF292931F2DF002D0C2A /* AncoraUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C53AF3A2931F2DF002D0C2A /* Build configuration list for PBXNativeTarget "AncoraUITests" */;
+			buildPhases = (
+				8C53AF262931F2DF002D0C2A /* Sources */,
+				8C53AF272931F2DF002D0C2A /* Frameworks */,
+				8C53AF282931F2DF002D0C2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C53AF2C2931F2DF002D0C2A /* PBXTargetDependency */,
+			);
+			name = AncoraUITests;
+			productName = AncoraUITests;
+			productReference = 8C53AF2A2931F2DF002D0C2A /* AncoraUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8C53AF022931F2DE002D0C2A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					8C53AF092931F2DE002D0C2A = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					8C53AF1F2931F2DF002D0C2A = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 8C53AF092931F2DE002D0C2A;
+					};
+					8C53AF292931F2DF002D0C2A = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 8C53AF092931F2DE002D0C2A;
+					};
+				};
+			};
+			buildConfigurationList = 8C53AF052931F2DE002D0C2A /* Build configuration list for PBXProject "Ancora" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8C53AF012931F2DE002D0C2A;
+			productRefGroup = 8C53AF0B2931F2DE002D0C2A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8C53AF092931F2DE002D0C2A /* Ancora */,
+				8C53AF1F2931F2DF002D0C2A /* AncoraTests */,
+				8C53AF292931F2DF002D0C2A /* AncoraUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8C53AF082931F2DE002D0C2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C53AF1A2931F2DF002D0C2A /* LaunchScreen.storyboard in Resources */,
+				8C53AF172931F2DF002D0C2A /* Assets.xcassets in Resources */,
+				8C53AF152931F2DE002D0C2A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C53AF1E2931F2DF002D0C2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C53AF282931F2DF002D0C2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8C53AF062931F2DE002D0C2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C53AF122931F2DE002D0C2A /* ViewController.swift in Sources */,
+				8C53AF0E2931F2DE002D0C2A /* AppDelegate.swift in Sources */,
+				8C53AF102931F2DE002D0C2A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C53AF1C2931F2DF002D0C2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C53AF252931F2DF002D0C2A /* AncoraTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C53AF262931F2DF002D0C2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C53AF312931F2DF002D0C2A /* AncoraUITestsLaunchTests.swift in Sources */,
+				8C53AF2F2931F2DF002D0C2A /* AncoraUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8C53AF222931F2DF002D0C2A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C53AF092931F2DE002D0C2A /* Ancora */;
+			targetProxy = 8C53AF212931F2DF002D0C2A /* PBXContainerItemProxy */;
+		};
+		8C53AF2C2931F2DF002D0C2A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C53AF092931F2DE002D0C2A /* Ancora */;
+			targetProxy = 8C53AF2B2931F2DF002D0C2A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8C53AF132931F2DE002D0C2A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C53AF142931F2DE002D0C2A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8C53AF182931F2DF002D0C2A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C53AF192931F2DF002D0C2A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8C53AF322931F2DF002D0C2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8C53AF332931F2DF002D0C2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8C53AF352931F2DF002D0C2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4NHNXGP2JM;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Ancora/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rohit.Ancora;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8C53AF362931F2DF002D0C2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4NHNXGP2JM;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Ancora/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rohit.Ancora;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8C53AF382931F2DF002D0C2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4NHNXGP2JM;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rohit.AncoraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ancora.app/Ancora";
+			};
+			name = Debug;
+		};
+		8C53AF392931F2DF002D0C2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4NHNXGP2JM;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rohit.AncoraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ancora.app/Ancora";
+			};
+			name = Release;
+		};
+		8C53AF3B2931F2DF002D0C2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4NHNXGP2JM;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rohit.AncoraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Ancora;
+			};
+			name = Debug;
+		};
+		8C53AF3C2931F2DF002D0C2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4NHNXGP2JM;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rohit.AncoraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Ancora;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8C53AF052931F2DE002D0C2A /* Build configuration list for PBXProject "Ancora" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C53AF322931F2DF002D0C2A /* Debug */,
+				8C53AF332931F2DF002D0C2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C53AF342931F2DF002D0C2A /* Build configuration list for PBXNativeTarget "Ancora" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C53AF352931F2DF002D0C2A /* Debug */,
+				8C53AF362931F2DF002D0C2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C53AF372931F2DF002D0C2A /* Build configuration list for PBXNativeTarget "AncoraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C53AF382931F2DF002D0C2A /* Debug */,
+				8C53AF392931F2DF002D0C2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C53AF3A2931F2DF002D0C2A /* Build configuration list for PBXNativeTarget "AncoraUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C53AF3B2931F2DF002D0C2A /* Debug */,
+				8C53AF3C2931F2DF002D0C2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8C53AF022931F2DE002D0C2A /* Project object */;
+}
